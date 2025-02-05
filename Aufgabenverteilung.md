@@ -1,5 +1,5 @@
 ### Fragestellungen
-- Personenverkehr
-- Güteraustausch
-- Politisches
-- Geschichte & Zukunftsausblicke
+- Personenverkehr **Mario**
+- Güteraustausch & Ökonomie **Ferdinand**
+- Politisches **Max**
+- Geschichte & Zukunftsausblicke **Julian**
