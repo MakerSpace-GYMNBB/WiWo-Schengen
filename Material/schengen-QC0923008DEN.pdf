@@ -1,0 +1,128 @@
+    <!DOCTYPE html>
+<html class="login-pf" lang="de">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="robots" content="noindex, nofollow">
+
+                <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>ByCS Login Service</title>
+        <link rel="icon" href="/resources/dnfod/login/bycs/img/favicon.ico" />
+                <link href="/resources/dnfod/login/bycs/css/login.css" rel="stylesheet" />
+                <link href="/resources/dnfod/login/bycs/css/bycs.css" rel="stylesheet" />
+                <link href="/resources/dnfod/login/bycs/css/all.css" rel="stylesheet" />
+                <script src="/resources/dnfod/login/bycs/js/bycs.js" type="text/javascript"></script>
+        <script type="module" src="/resources/dnfod/login/bycs/js/bycs-a11y-toolbar.js"></script>
+    </head>
+    <body class="">
+
+    <div class="login-pf-page w-full min-h-screen bg-gray-light flex flex-col bg-center bg-no-repeat bg-cover">
+        <div><bycs-a11y-toolbar id="bycs-toolbar" showContrastModeButton></bycs-a11y-toolbar></div>
+
+        <div class="card-pf w-full max-w-lg p-10 bg-white border-none shadow-none ">
+            <header class="login-pf-header">
+                <div id="kc-header" class="">
+                    <img id="bycs-logo" data-bycs="bycs-logo"
+                            class="mx-auto block w-40" alt="BayernCloud Schule Logo" src="/resources/dnfod/login/bycs/img/logo_bycs.svg">
+                </div>
+                        <h1 id="headline-header" data-bycs="headline-header"
+                            class="font-medium font-display text-2xl text-center mt-5 mb-8">    
+        Login für registrierte Nutzerinnen &amp; Nutzer
+</h1>
+            </header>
+            <div id="kc-content">
+                <div id="kc-content-wrapper">
+
+            <div id="kc-form">
+            <div id="kc-form-wrapper">
+                    <form id="kc-form-login" onsubmit="login.disabled = true; return true;" action="https://auth.bycs.de/realms/bycs/login-actions/authenticate?session_code=QkA48_cZqf91tEzbPugOSkvEgogmEg6OFTPFXEv3vo8&amp;execution=b845230a-ca50-49db-a333-32d5029bad0e&amp;client_id=mebis-lernplattform-oidc&amp;tab_id=JU9A5XDDB5E&amp;client_data=eyJydSI6Imh0dHBzOi8vbGVybnBsYXR0Zm9ybS5tZWJpcy5ieWNzLmRlL2FkbWluL29hdXRoMmNhbGxiYWNrLnBocCIsInJ0IjoiY29kZSIsInN0IjoiL2F1dGgvb2F1dGgyL2xvZ2luLnBocD93YW50c3VybD1odHRwcyUzQSUyRiUyRmxlcm5wbGF0dGZvcm0ubWViaXMuYnljcy5kZSUyRnBsdWdpbmZpbGUucGhwJTJGOTQ1NTYzMzUlMkZtb2RfcmVzb3VyY2UlMkZjb250ZW50JTJGMCUyRnNjaGVuZ2VuLVFDMDkyMzAwOERFTi5wZGYmc2Vzc2tleT1nc1BvQ0F3RTNuJmlkPTQifQ" method="post">
+                            <div class="text-base form-group mt-4">
+                                <label id="label-username" data-bycs="label-username" for="input-username" class="text-xl">ByCS-Kennung</label>
+                                <input id="input-username" data-bycs="input-username" class="w-full h-15 border border-gray-medium contrast:border-2 contrast:border-gray-dark rounded-md rounded-md shadow-none text-xl placeholder-opacity-60" name="username" value=""  type="text" autofocus autocomplete="off" placeholder="ByCS-Kennung"
+                                       aria-invalid=""
+                                />
+
+
+                            </div>
+
+                        <div class="text-base form-group mt-4 ">
+                            <label id="label-password" data-bycs="label-password" for="input-password" class="text-xl">Passwort</label>
+                            <div class="flex w-full input-wrapper">
+                                <input id="input-password" data-bycs="input-password" class="w-full h-15 border border-gray-medium contrast:border-2 contrast:border-gray-dark rounded-md rounded-md shadow-none text-xl placeholder-opacity-60"
+                                       name="password" type="password" autocomplete="off" placeholder="Passwort"
+                                       aria-invalid="" />
+                                <button id="toggle-button-password" data-bycs="toggle-button-password" name="toggle-button-password" type="button"
+                                        class="pf-c-button pf-m-control toggle-password-eye-icon"
+                                        aria-label="Passwort anzeigen"
+                                        aria-controls="input-password"  data-password-toggle
+                                        data-icon-show="text-base fa fal fa-eye"
+                                        data-icon-hide="text-base fa fal fa-eye-slash"
+                                        data-label-show="Passwort anzeigen"
+                                        data-label-hide="Passwort verstecken"
+                                        data-title-show="Passwort anzeigen"
+                                        data-title-hide="Passwort verstecken">
+                                    <i class="text-base fa fal fa-eye" aria-hidden="true"></i>
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="text-base form-group mt-4 login-pf-settings">
+                            <div id="kc-form-options">
+                            </div>
+                            <div class="">
+                            </div>
+
+                        </div>
+
+                        <div id="kc-form-buttons" class="text-base form-group mt-4">
+                            <input type="hidden" id="id-hidden-input" name="credentialId" />
+                            <button id="button-do-log-in" data-bycs="button-do-log-in"
+                                    class="pf-c-button relative group inline-flex items-center justify-center text-white text-base font-display leading-tight h-15 rounded-lg px-4 xs:px-8 disabled:opacity-50 disabled:pointer-events-nonefocusable pf-m-primary w-full btn-lg" name="login" type="submit" value="Login">
+                                <span aria-hidden="true" class="absolute top-0 left-0 w-full h-full bg-orange-800 group-hover:bg-orange-600 rounded-lg border border-orange-800 group-hover:border-orange-600 transition contrast:bg-gray-dark contrast:border-2 contrast:border-white contrast:hover:bg-black contrast:hover:border-white contrast:group-hover:bg-black contrast:group-hover:border-white" :class="cls"></span>
+                                <span class="relative mr-2.5 transition group-hover:translate-x-1">➜︎</span><span class="relative">Login</span>
+                            </button>
+                        </div>
+                    </form>
+                    <script type="module" src="/resources/dnfod/login/bycs/js/passwordVisibility.js"></script>
+
+                    <ul class="text-center mt-5">
+                        <a id="href-do-forgot-password" data-bycs="href-do-forgot-password"
+                           class="font-medium font-display underline text-base" href="https://idm.mebis.bayern.de/selfservice/SelfService.pl?mode=pwreset">Passwort vergessen?</a>
+                    </ul>
+                    <ul class="text-center mt-10">
+                        <a id="href-help-and-registration" data-bycs="href-help-and-registration"
+                           class="font-medium font-display underline text-sm" href="https://www.bycs.de/hilfe-und-tutorials/administration/hilfe-zur-registrierung-und-anmeldung/index.html">Hilfe und Registrierung</a>
+                    </ul>
+
+            </div>
+
+        </div>
+
+                    <!---->
+
+    
+                </div>
+            </div>
+
+        </div>
+        <footer id="footer" data-bycs="footer" class="mb-2 mx-1 text-base">
+            <div class="mx-auto w-full max-w-8xl px-5 xl:px-10 py-5 flex flex-col-reverse lg:flex-row items-center lg:justify-between lg:space-x-4">
+                <div class="flex items-center flex-col sm:flex-row sm:space-x-9 mt-4 lg:mt-0">
+                    <span id="text-copyright" data-bycs="text-copyright" class="text-center text-gray-dark dark:text-white opacity-100 contrast:opacity-100">© Bayerisches Staatsministerium für Unterricht und Kultus</span>
+                </div>
+                <nav aria-label="Rechtliche Seiten">
+                    <ul class="flex items-center flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+                        <li>
+                            <a id="href-data-protection" data-bycs="href-data-protection" href="https://www.bycs.de/loginseite-datenschutz" target="_blank"
+                               class="text-gray-dark dark:text-white opacity-100 hover:opacity-100 focus:opacity-100 contrast:opacity-100 focusable">Datenschutz</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+
+    </body>
+    </html>
