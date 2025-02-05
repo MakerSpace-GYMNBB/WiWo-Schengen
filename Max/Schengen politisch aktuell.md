@@ -15,3 +15,9 @@ Einordnung von Tagesschau zu Merz Plänen: https://www.tagesschau.de/inland/inne
 Dublin 3 Verordnung: https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:180:0031:0059:de:PDF und hilfreich https://www.asyl.net/recht/gesetzestexte/asylrecht/dublin-iii-verordnung
 
 Merz möchte Dauerhafte Grenzkontrollen (vgl. 5 Punkte Plan Union & Union Sofortprogramm). Ist aber Rechtswidrig(vgl. Einordung von Tagesschau von Merz plänen), weil Grenzkontrollen nach Schengener Abkommen nur Temporär stattfinden dürfen(vgl. Schengendurchführungsabkommen(Schengen 2) TITEL II Kapitel 1 Artikel 2 Absatz 2) nur aufgrund nationaler Sicherheitsinteressen und auf eine Dauer von 2 Jahren beschränkt sind.
+
+Muss noch gucken, wie das mit dem Dublin 3 Abkommen bzgl. der Forderung der Union nach Abweisung aller Schutzsuchender an der Grenze ohne Einreisepapiere aussieht.
+
+Außerdem das Abkommen, die Anforderungen bzgl. dem Tranport von Betäubungsmitteln über Schengengrenzen betrachten.
+
+
