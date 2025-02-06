@@ -13,6 +13,7 @@ Getroffen um 08:01 und Koordiniert, Freiarbeitsphase bis 1. Pause bzw. Unterhalt
 Anfang 5.
 
 13:57 Wieder getroffen
+14:05 Umfrage wird durch Mario erstellt
 
 
 
