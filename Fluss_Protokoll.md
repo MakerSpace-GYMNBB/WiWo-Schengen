@@ -9,11 +9,13 @@ Um 11:37 wurde der Treffpunkt auf 12:30 verlegt.
 
 
 ### Protokoll 06.02.2025
-Getroffen um 08:01 und Koordiniert, Freiarbeitsphase bis 1. Pause bzw. Unterhaltung mit Hr. Schallenberger. Außerdem entwurf für Fragebogen erstellt.
-Anfang 5.
+Getroffen um 08:01 und Koordiniert, Freiarbeitsphase bis 1. Pause bzw. Unterhaltung mit Hr. Schallenberger. Außerdem Entwurf für Fragebogen erstellt.
+Anfang 5. Stunde Schallenberger getroffen
 
 13:57 Wieder getroffen
 14:05 Umfrage wird durch Mario erstellt
+14:40 Treffen mit Schallenberger
+
 
 
 
