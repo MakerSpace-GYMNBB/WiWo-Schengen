@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"9d26e1a9c483b758","x":-180,"y":-240,"width":250,"height":120,"type":"text","text":"Sagt ihnen das Schengenabkommen etwas?"},
+		{"id":"7762ab5bc582b02b","x":-55,"y":0,"width":250,"height":60,"type":"text","text":"Sind Sie damit einverstanden"},
+		{"id":"3ed3c21d0037ca08","x":160,"y":200,"width":250,"height":100,"type":"text","text":"Würden Sie es nur verändern oder ganz abschaffen?"},
+		{"id":"5a425841c11b3b8d","x":-320,"y":440,"width":250,"height":60,"type":"text","text":"Ende"},
+		{"id":"e051e5baa45f2138","x":-180,"y":-500,"width":250,"height":80,"type":"text","text":"Sind Sie über oder unter 18?"}
+	],
+	"edges":[
+		{"id":"9413b9194b3c71f3","fromNode":"9d26e1a9c483b758","fromSide":"bottom","toNode":"7762ab5bc582b02b","toSide":"top","label":"Ja"},
+		{"id":"b1af83c921d456ce","fromNode":"7762ab5bc582b02b","fromSide":"bottom","toNode":"3ed3c21d0037ca08","toSide":"top","label":"Nein"},
+		{"id":"42b27a2a22e9f251","fromNode":"9d26e1a9c483b758","fromSide":"bottom","toNode":"5a425841c11b3b8d","toSide":"top","label":"Nein"},
+		{"id":"ab7833fe3b944327","fromNode":"7762ab5bc582b02b","fromSide":"bottom","toNode":"5a425841c11b3b8d","toSide":"top","label":"Ja"},
+		{"id":"205ed3af434e4069","fromNode":"3ed3c21d0037ca08","fromSide":"bottom","toNode":"5a425841c11b3b8d","toSide":"top"},
+		{"id":"b7ba396d49ec5c13","fromNode":"e051e5baa45f2138","fromSide":"bottom","toNode":"9d26e1a9c483b758","toSide":"top"}
+	]
+}
