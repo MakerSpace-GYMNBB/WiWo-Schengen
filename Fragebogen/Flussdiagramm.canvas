@@ -4,8 +4,9 @@
 		{"id":"7762ab5bc582b02b","type":"text","text":"Sind Sie damit einverstanden","x":-55,"y":0,"width":250,"height":60},
 		{"id":"3ed3c21d0037ca08","type":"text","text":"Würden Sie es nur verändern oder ganz abschaffen?","x":160,"y":200,"width":250,"height":100},
 		{"id":"5a425841c11b3b8d","type":"text","text":"Ende","x":-320,"y":440,"width":250,"height":60},
-		{"id":"cc54bb1053a061da","type":"text","text":"Wenn am Sonntag Bundestagswahl wäre, welche Partei würden Sie wählen?","x":-180,"y":-460,"width":250,"height":120},
-		{"id":"e051e5baa45f2138","type":"text","text":"Sind Sie über oder unter 18?","x":-180,"y":-640,"width":250,"height":80}
+		{"id":"cc54bb1053a061da","type":"text","text":"Wenn am Sonntag Bundestagswahl wäre, welche Partei würden Sie wählen?","x":100,"y":-460,"width":250,"height":120},
+		{"id":"e051e5baa45f2138","type":"text","text":"In welchem Altersraum liegen sie.","x":-180,"y":-860,"width":250,"height":80},
+		{"id":"a3d39164b8fd0fc5","x":-180,"y":-620,"width":250,"height":60,"type":"text","text":"Sind sie Wahlberechtigt"}
 	],
 	"edges":[
 		{"id":"9413b9194b3c71f3","fromNode":"9d26e1a9c483b758","fromSide":"bottom","toNode":"7762ab5bc582b02b","toSide":"top","label":"Ja"},
@@ -13,7 +14,8 @@
 		{"id":"42b27a2a22e9f251","fromNode":"9d26e1a9c483b758","fromSide":"bottom","toNode":"5a425841c11b3b8d","toSide":"top","label":"Nein"},
 		{"id":"ab7833fe3b944327","fromNode":"7762ab5bc582b02b","fromSide":"bottom","toNode":"5a425841c11b3b8d","toSide":"top","label":"Ja"},
 		{"id":"205ed3af434e4069","fromNode":"3ed3c21d0037ca08","fromSide":"bottom","toNode":"5a425841c11b3b8d","toSide":"top"},
-		{"id":"1de4fcceea8cd67e","fromNode":"e051e5baa45f2138","fromSide":"bottom","toNode":"cc54bb1053a061da","toSide":"top"},
-		{"id":"238131a61e8d6076","fromNode":"cc54bb1053a061da","fromSide":"bottom","toNode":"9d26e1a9c483b758","toSide":"top"}
+		{"id":"238131a61e8d6076","fromNode":"cc54bb1053a061da","fromSide":"bottom","toNode":"9d26e1a9c483b758","toSide":"top"},
+		{"id":"53ed6ff14fd061ec","fromNode":"e051e5baa45f2138","fromSide":"bottom","toNode":"a3d39164b8fd0fc5","toSide":"top"},
+		{"id":"233f38965a699cd3","fromNode":"a3d39164b8fd0fc5","fromSide":"bottom","toNode":"cc54bb1053a061da","toSide":"top"}
 	]
 }

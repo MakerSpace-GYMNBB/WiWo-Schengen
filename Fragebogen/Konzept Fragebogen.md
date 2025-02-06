@@ -6,6 +6,9 @@ Fragebogen Software: Lime Survey(OSS!), empirio
 Personengruppe: Schüler und Passanten
 Datenanalysesoftware: PSPP
 Darstellungsform: ?
-Leute die eher folgende Parteien wählen stehen auch eher folgendermaßen zum Schengenabkommen: 
+Leute die eher folgende Parteien wählen stehen auch eher folgendermaßen zum Schengenabkommen:
+Form online und mit Klemmbrett
+
+
 
 

@@ -10,6 +10,10 @@ Um 11:37 wurde der Treffpunkt auf 12:30 verlegt.
 
 ### Protokoll 06.02.2025
 Getroffen um 08:01 und Koordiniert, Freiarbeitsphase bis 1. Pause bzw. Unterhaltung mit Hr. Schallenberger. Außerdem entwurf für Fragebogen erstellt.
+Anfang 5.
+
+13:57 Wieder getroffen
+
 
 
 
