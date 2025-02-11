@@ -7,8 +7,7 @@ Zustrombegrenzungsgesetz: https://dserver.bundestag.de/btd/20/128/2012804.pdf, h
 
 Schengen Abkommen(Besitzstand, Schengen 1): https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:42000A0922(01)., abgerufen am 05.02.2025
 
-Schengen Durchführungabkommen(Schengen 2):https://eur-lex.europa.eu/legal-content/DE/AUTO/?uri=celex:42000A0922%2802%29
-Interessant TITEL II Kapitel 1 Artikel 2 Absatz 2 
+Schengen Durchführungabkommen(Schengen 2):https://eur-lex.europa.eu/legal-content/DE/AUTO/?uri=celex:42000A0922%2802%29 Interessant TITEL II Kapitel 1 Artikel 2 Absatz 2 
 
 Einordnung von Tagesschau zu Merz Plänen: https://www.tagesschau.de/inland/innenpolitik/union-forderungen-migration-102.html, abgerufen am 05.02.2025
 

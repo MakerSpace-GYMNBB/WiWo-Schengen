@@ -17,6 +17,12 @@ Anfang 5. Stunde Schallenberger getroffen
 14:40 Treffen mit Schallenberger
 
 
+### Protokoll 10.02.2025
+Getroffen 08:05 Uhr
+Angefangen 08:30 vgl. [[Aufgabenverteilung]]
+
+
+
 
 
 

@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"ffa1bc951cf27b55","type":"text","text":"Sagt ihnen das Schengenabkommen etwas?","x":520,"y":-120,"width":250,"height":120},
+		{"id":"e764ab7d9bc9fce6","type":"text","text":"Sind Sie damit einverstanden","x":840,"y":-280,"width":250,"height":60},
+		{"id":"77cbd3eb60568543","type":"text","text":"Wenn am Sonntag Bundestagswahl wäre, welche Partei würden Sie wählen?","x":200,"y":-120,"width":250,"height":120},
+		{"id":"e175ae4cf4ca159a","type":"text","text":"Sind sie Wahlberechtigt","x":-100,"y":-90,"width":250,"height":60},
+		{"id":"c1e84e6679c199a3","type":"text","text":"Wie alt sind Sie?","x":-400,"y":-85,"width":250,"height":50},
+		{"id":"030b5a8d7a082fd7","type":"text","text":"Würden Sie es nur verändern oder ganz abschaffen?","x":1235,"y":-300,"width":250,"height":100},
+		{"id":"88b8026c8381b748","type":"text","text":"Ende","x":1485,"y":160,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"07eeb648c8e51857","fromNode":"e175ae4cf4ca159a","fromSide":"right","toNode":"77cbd3eb60568543","toSide":"left"},
+		{"id":"fb1a3e2f7e942f5e","fromNode":"77cbd3eb60568543","fromSide":"right","toNode":"ffa1bc951cf27b55","toSide":"left"},
+		{"id":"af7729891b02c9c6","fromNode":"ffa1bc951cf27b55","fromSide":"right","toNode":"e764ab7d9bc9fce6","toSide":"left","label":"Ja"},
+		{"id":"5c18228d1c364ddd","fromNode":"ffa1bc951cf27b55","fromSide":"right","toNode":"88b8026c8381b748","toSide":"left","label":"Nein"},
+		{"id":"0568caad2766bf52","fromNode":"e764ab7d9bc9fce6","fromSide":"right","toNode":"030b5a8d7a082fd7","toSide":"left"},
+		{"id":"0c1b2cde85dd6d72","fromNode":"030b5a8d7a082fd7","fromSide":"right","toNode":"88b8026c8381b748","toSide":"left"},
+		{"id":"c01c37a786dbfc65","fromNode":"c1e84e6679c199a3","fromSide":"right","toNode":"e175ae4cf4ca159a","toSide":"left"},
+		{"id":"1eccbe7c5d4b9378","fromNode":"e764ab7d9bc9fce6","fromSide":"right","toNode":"88b8026c8381b748","toSide":"left","label":"Ja"}
+	]
+}
